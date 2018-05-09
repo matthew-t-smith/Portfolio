@@ -1,0 +1,61 @@
+body {
+  min-height: 100vh;
+}
+
+#header_background {
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000000
+}
+
+.blurb-section {
+  position: relative;
+  margin:0 24px;
+  padding-top: 56px;
+  text-align: center;
+}
+
+.main, #title_name, #menu_name {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.sub {
+  font-family: 'Roboto', sans-serif;
+}
+
+.mdl-card__title {
+  background-color: #5472d3
+}
+
+.demo-card-image.mdl-card {
+  width: 256px;
+  height: 256px;
+  background: center / cover;
+}
+.demo-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.demo-card-image__filename {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#card1 {
+  background-position: left;
+}
+
+#card2 {
+  background-position: right;
+}
+
+#card3 {
+  background-position: top;
+}
+
+#card4 {
+  background-position: bottom;
+}

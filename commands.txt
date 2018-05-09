@@ -1,0 +1,21 @@
+Start project:
+django-admin startproject nameofproject
+
+Start app (in project directory):
+python3 manage.py startapp nameofapp
+
+Install requirements:
+pip3 install -r requirements.txt
+
+Database commands:
+python3 manage.py makemigrations
+python3 manage.py migrate
+
+Admin creation:
+python3 manage.py createsuperuser
+
+Enter Python shell for app:
+python3 manage.py shell
+
+Run application:
+python3 manage.py runserver
